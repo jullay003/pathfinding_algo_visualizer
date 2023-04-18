@@ -1,6 +1,6 @@
 # Pathfinding e-learning tool
 
-Hello and thank you for visiting Pathfinding Visualizer! I created this app because I was interested by pathfinding algorithms and wanted to see them in action. I hope you enjoy experimenting with this visualisation tool as much as I did creating it. You may find it at  (use Google Chrome!).
+Hello and thank you for visiting Pathfinding Visualizer! I created this app because I was interested by pathfinding algorithms and wanted to see them in action. I hope you enjoy experimenting with this visualisation tool as much as I did creating it. You may find it at https://jullay003.github.io/pathfinding_algo_visualizer/# (use Google Chrome!).
 
 ## Get to Know the Algorithms
 
