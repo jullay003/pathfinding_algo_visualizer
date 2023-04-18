@@ -1,29 +1,39 @@
-# Pathfinding Visualizer
+# Pathfinding e-learning tool
 
-Hello and welcome to Pathfinding Visualizer! I built this application because I was fascinated by pathfinding algorithms, and I wanted to visualize them in action. I hope that you enjoy playing around with this visualization tool just as much as I enjoyed building it. You can access it here (use Google Chrome!): https://clementmihailescu.github.io/Pathfinding-Visualizer/
+Hello and thank you for visiting Pathfinding Visualizer! I created this app because I was interested by pathfinding algorithms and wanted to see them in action. I hope you enjoy experimenting with this visualisation tool as much as I did creating it. You may find it at  (use Google Chrome!).
 
-## Meet the Algorithms
+## Get to Know the Algorithms
 
-This application supports the following algorithms: 
+The following algorithms are supported by this application: 
 
-**Dijkstra's Algorithm** (weighted): the father of pathfinding algorithms; guarantees the shortest path
+**The Algorithm of Dijkstra** (weighted): the grandfather of pathfinding algorithms; ensures the shortest route.
 
-**A* Search** (weighted): arguably the best pathfinding algorithm; uses heuristics to guarantee the shortest path much faster than Dijkstra's Algorithm
+**A Search** (weighted): possibly the best pathfinding method; employs heuristics to discover the shortest path significantly quicker than Dijkstra's method.
 
-**Greedy Best-first Search** (weighted): a faster, more heuristic-heavy version of A*; does not guarantee the shortest path
+**Greedy First-Page Search** (weighted): a quicker, more heuristic-heavy variant of A*; does not always find the shortest path.
 
-**Swarm Algorithm** (weighted): a mixture of Dijkstra's Algorithm and A*; does not guarantee the shortest-path
+**Swarm Algorithm** (weighted): a hybrid of Dijkstra's Algorithm and A* that does not always find the shortest path.
 
-**Convergent Swarm Algorithm** (weighted): the faster, more heuristic-heavy version of Swarm; does not guarantee the shortest path
+**Algorithm of Convergent Swarms** (weighted): Swarm's quicker, more heuristic-heavy variant; does not guarantee the shortest path.
 
-**Bidirectional Swarm Algorithm** (weighted): Swarm from both sides; does not guarantee the shortest path
+**Bidirectional Swarm Optimisation** Swarm from both sides; does not ensure the quickest path
 
-**Breath-first Search** (unweighted): a great algorithm; guarantees the shortest path
+**Search by Breath** (unweighted): an excellent method that ensures the shortest path.
 
-**Depth-first Search** (unweighted): a very bad algorithm for pathfinding; does not guarantee the shortest path
+**In-Depth Search** (unweighted): a poor pathfinding algorithm that does not guarantee the shortest path.
 
-On top of the pathfinding algorithms listed above, I implemented a **Recursive Division** Maze Generation algorithm.
+I added a **Recursive Division** Maze Generation technique to the pathfinding algorithms outlined above.
+
+
+
+
 
 ## More about the Swarm Algorithm
 
-The Swarm Algorithm is an algorithm that I - at least presumably so (I was unable to find anything close to it online) - co-developed with a good friend and colleague, Hussein Farah. The algorithm is essentially a mixture of Dijkstra's Algorithm and A* Search; more precisely, while it converges to the target node like A* , it still explores quite a few neighboring nodes surrounding the start node like Dijkstra's. The algorithm differentiates itself from A* through its use of heuristics: it continually updates nodes' distance from the start node while taking into account their estimated distance from the target node. This effectively "balances" the difference in total distance between nodes closer to the start node and nodes closer to the target node, which results in the triangle-like shape of the Swarm Algorithm. We named the algorithm "Swarm" because one of its potential applications could be seen in a video-game where a character must keep track of a boss with high priority (the target node), all the while keeping tracking of neighboring enemies that might be swarming nearby. 
+The algorithm is basically a hybrid of Dijkstra's Algorithm and A* Search; more specifically, while A* converges to the target node, Dijkstra's searches a large number of neighbouring nodes around the start node. The method distinguishes itself from A* by employing heuristics: it constantly updates nodes' distance from the start node while accounting for their predicted distance from the destination node. This effectively "balances" the difference in total distance between nodes closer to the start node and nodes closer to the goal node, resulting in the Swarm Algorithm's triangle-like form.
+
+
+
+
+
+
